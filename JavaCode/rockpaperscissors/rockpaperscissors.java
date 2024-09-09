@@ -1,6 +1,6 @@
 /**
  * A simple rock paper and scissors game
- *
+ * Made in free time and for fun.
  * @author kody ho
  * @version 1
  */
