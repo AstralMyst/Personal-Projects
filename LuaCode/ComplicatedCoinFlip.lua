@@ -19,7 +19,7 @@ local combat = {
 
   {"Leaping from behind, ⨷ tackles ⊗ from behind, sending both tumbling to the ground.", 2, 2,"⨷ pummels ⊗ with a flurry of attacks.","⊗ forces ⨷ off of them, stumbling to their feet."},
 
-  {"Grabbing ⊗, ⨷ pushes them against the wall, raising his fist to strike.", 2, 2,"⨷ unleashes a barrage of attacks, before finally releasing ⊗ from their grasp.","⊗ blocks ⨷'s fist and they shove them back."},
+  {"Grabbing ⊗, ⨷ pushes them against the wall, raising their fist to strike.", 2, 2,"⨷ unleashes a barrage of attacks, before finally releasing ⊗ from their grasp.","⊗ blocks ⨷'s fist and they shove them back."},
 
   {"⨷ dashes towards ⊗, weapon drawn.", 3, 3,"⨷ leaps into the air. ⊗ turns to block but isn't fast enough and was injured","⊗ leaps out of the way as ⨷'s blade strikes the ground."},
   
@@ -333,7 +333,7 @@ while entered == true do
     return input:gsub("⨷","\27[34m"..tostring(fighter1).."\27[0m"):gsub("⊗","\27[34m"..tostring(fighter2).."\27[0m")
   end
   print("\27[31mReady?\27[0m")
-  sleep(1/timescale)
+  sleep(1)
   print("Go!")
   local fightCount = 0
   repeat
