@@ -148,11 +148,11 @@ local randomNamelist = {
 }
 
 function Clear()
-  if os.execute("clear") then
-    os.execute("clear")
-  elseif not os.execute("clear") then -- if clear is not file
+  if os.execute("cls") then
     os.execute("cls")
-  elseif not os.execute("cls") then -- if cls not file
+  elseif not os.execute("cls") then -- if clear is not file
+    os.execute("clear")
+  elseif not os.execute("clear") then -- if cls not file
     for i = 1, 25 do
       print("\n") -- create a bunch of new lines for clear effect
     end
