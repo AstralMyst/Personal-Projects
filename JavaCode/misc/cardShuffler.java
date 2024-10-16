@@ -20,13 +20,13 @@ class Card {
 			suit = "Clubs";
 		}
 		else if (value <= 26){
-			suit = "Spades";
+			suit = "Diamonds";
 		}
 		else if (value <= 39){
 			suit = "Hearts";
 		}
 		else{
-			suit = "Diamonds";
+			suit = "Spades";
 		}
 		int cardValue = (value%13==0)?(13):(value%13);
 
